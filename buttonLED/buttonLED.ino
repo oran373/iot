@@ -19,10 +19,11 @@ void loop() {
       old = 1;
     }
       Light(old);
+       delay(500);
   }
   
  // Serial.println(buttonState); 
-  delay(500);
+ 
 }
 
 void Light(int n){
